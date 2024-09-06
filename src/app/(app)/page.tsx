@@ -17,6 +17,7 @@ import {
 } from '@/graphql/Main';
 import { Main } from '@/templates/Main';
 import { axiosGraphQL } from '@/utils/axios';
+import TestimonialCard from '@/components/common/sections/TestimonialCard';
 
 export const revalidate = 3600;
 
@@ -60,6 +61,8 @@ const HomePage = async () => {
       <Blogs blogs={blogs} />
       <Divider title="Projects" />
       <FeaturedProjects projects={projects} />
+      <Divider title="Testimonial" />
+      <TestimonialCard  />
       <Divider title="Code Snippets" />
       <CodeSnippets snippets={snippets} />
     </Main>

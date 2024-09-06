@@ -1,6 +1,6 @@
 'use client';
 
-import { IconGlobe } from '@tabler/icons';
+import { IconGlobe,  } from '@tabler/icons';
 import { useTheme } from 'next-themes';
 import React from 'react';
 import { BrandGithub } from 'tabler-icons-react';
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="flex flex-[6] items-center ">
         <div>
           <h1 className="text-shadow-md dark:text-gradient text-center text-[40px] font-bold leading-[1.1em] text-primary-700 antialiased sm:text-[50px] md:text-left xl:text-[60px]">
-            Hello, i am <br /> Shubham Kashyap.
+            Hello, I am <br /> Shubham Kashyap.
           </h1>
           <h4 className="text-shadow-sm mt-2 text-center text-xl font-semibold md:text-left md:text-2xl">
             <TypewriterEffect />
@@ -65,30 +65,28 @@ const Hero = () => {
         <div className="mt-4 flex flex-col space-y-4">
           <Hightlight
             icon={<IconGlobe color={theme === 'dark' ? 'white' : 'black'} />}
-            title="Solana Raffle"
-            subTitle="Web3, Solana, React,Typescript"
-            tag="@nftmarketplace"
-            route={'https://raffle-shubhamkashyapdev.vercel.app/'}
+            title="Logo Arena"
+            subTitle="Next.js, Typescript, Stripe, Cloudflare CDN"
+            tag="@LogoArena"
+            route={'https://www.logoarena.com/'}
           >
-            Solana Raffle is a full-stack web application with a Next.js,
-            TailwindCSS, and Mantine UI frontend, coupled with a Node.js,
-            Express.js, and MongoDB backend. The application enables users to
-            participate in raffles by making SOL token payments and integrates
-            with the Phantom Wallet for seamless transactions and an enhanced
-            user experience.
+            Logo Arena is a Full-Stack Web Application build with Next.js,
+            Typescript, Stripe integration, Cloudflare CDN and TailwindCSS. This
+            Application is a prominent logo design contest platform that
+            facilitates businesses in obtaining custom logo designs.
           </Hightlight>
           <Hightlight
             icon={<IconGlobe color={theme === 'dark' ? 'white' : 'black'} />}
-            title="Solana Minesweeper"
-            subTitle="Anchor, Solana, React, Typescript"
-            tag="@solanaminesweeper"
-            route={'https://solana-minesweeper-game.pages.dev'}
+            title="Hiding Elephant"
+            subTitle="Next.js, Typescript, Stripe, CloudFlare CDN"
+            tag="@Hiding Elephant"
+            route={'https://www.hidingelephant.com/'}
           >
-            Solana minesweeper game built with Next.js, solana wallet adapter
-            and PiXi.js 2d animation library. The project uses the solana wallet
-            adapter to handle the on chain transactions and the backend in built
-            on Node.js + Express + Typescript and uses the Socket.IO to handle
-            the real time interactions.
+            Hiding Elephanti is a Full-Stack Web Application built with Next.js, Typescript
+            and Typescript, Stripe integration, Cloudflare CDN. This Application
+            is an AI-powered logo design tool tailored for professional
+            designers. It allows users to generate unique, custom logos from
+            simple text prompts
           </Hightlight>
         </div>
       </div>
