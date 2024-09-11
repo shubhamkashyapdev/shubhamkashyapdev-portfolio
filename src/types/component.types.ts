@@ -15,6 +15,7 @@ export enum TechStacks {
   TOOLS,
   TESTING,
   INFRASTRUCTURE,
+  AI,
 }
 
 export type TechStackItem = {

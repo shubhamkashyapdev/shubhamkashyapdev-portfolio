@@ -9,6 +9,7 @@ import FeaturedProjects from '@/components/common/sections/FeaturedProjects';
 import ProblemSolver from '@/components/common/sections/ProblemSolver';
 import TechnologyStack from '@/components/common/sections/TechnologyStack';
 import TechStack from '@/components/common/sections/TechStack';
+import TestimonialCard from '@/components/common/sections/TestimonialCard';
 import {
   getBoilerplatesForHomePage,
   getLibrariesForHomePage,
@@ -17,7 +18,6 @@ import {
 } from '@/graphql/Main';
 import { Main } from '@/templates/Main';
 import { axiosGraphQL } from '@/utils/axios';
-import TestimonialCard from '@/components/common/sections/TestimonialCard';
 
 export const revalidate = 3600;
 
@@ -51,6 +51,8 @@ const HomePage = async () => {
         title="Technology Stack"
       />
       <TechnologyStack />
+      <Divider title="Testimonial" />
+      <TestimonialCard />
       <Divider title="Problem Solver" />
       <ProblemSolver />
       <Divider title="Technologies Used" />
@@ -61,8 +63,6 @@ const HomePage = async () => {
       <Blogs blogs={blogs} />
       <Divider title="Projects" />
       <FeaturedProjects projects={projects} />
-      <Divider title="Testimonial" />
-      <TestimonialCard  />
       <Divider title="Code Snippets" />
       <CodeSnippets snippets={snippets} />
     </Main>

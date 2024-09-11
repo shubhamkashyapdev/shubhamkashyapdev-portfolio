@@ -7,6 +7,9 @@ import Parragraph from '../typography/Parragraph';
 
 const TechnologyStack = () => {
   return (
+    /* prettier-ignore */
+    /* eslint-disable */
+    // @ts-ignore
     <div>
       <div
         style={{ boxShadow: '0px 0px 10px 4px rgba(255,255,255,0.3)' }}

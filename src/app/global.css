@@ -149,7 +149,6 @@ p {
 }
 /* Loader Animation Ends */
 
-
 /* PayloadCMS Rich Text Content Styles */
 /* Rich Text Styles */
 
@@ -184,7 +183,8 @@ p {
 }
 
 /* Lists */
-.rich-text ul, .rich-text ol {
+.rich-text ul,
+.rich-text ol {
   @apply mb-4 pl-8;
 }
 
@@ -234,7 +234,8 @@ p {
   @apply w-full mb-4 border-collapse;
 }
 
-.rich-text th, .rich-text td {
+.rich-text th,
+.rich-text td {
   @apply border border-gray-300 px-4 py-2;
 }
 

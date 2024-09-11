@@ -14,6 +14,10 @@ export const technologiesLabels: TechStackItem[] = [
     category: TechStacks.INFRASTRUCTURE,
     label: 'Infrastructure & Tools',
   },
+  {
+    category: TechStacks.AI,
+    label: 'AI & Automation',
+  },
 ];
 
 export const technologies = [
@@ -34,8 +38,23 @@ export const technologies = [
   },
   {
     category: TechStacks.BACKEND,
+    icon: 'https://backend.shubhamkashyap.in/media/nextauth.png',
+    label: 'NestAuth.js',
+  },
+  {
+    category: TechStacks.BACKEND,
+    icon: 'https://backend.shubhamkashyap.in/media/stripe.svg',
+    label: 'Stripe',
+  },
+  {
+    category: TechStacks.BACKEND,
     icon: 'https://backend.shubhamkashyap.in/media/graphql-svgrepo-com.svg',
     label: 'GraphQL',
+  },
+  {
+    category: TechStacks.BACKEND,
+    icon: 'https://backend.shubhamkashyap.in/media/trpc.svg',
+    label: 'tRPC',
   },
   {
     category: TechStacks.BACKEND,
@@ -57,6 +76,11 @@ export const technologies = [
     category: TechStacks.BACKEND,
     icon: 'https://backend.shubhamkashyap.in/media/Mongoose_icon.svg',
     label: 'Mongoose',
+  },
+  {
+    category: TechStacks.BACKEND,
+    icon: 'https://backend.shubhamkashyap.in/media/supabase.png',
+    label: 'Supabase',
   },
   {
     category: TechStacks.BACKEND,
@@ -86,6 +110,11 @@ export const technologies = [
   },
   {
     category: TechStacks.FRONTEND,
+    icon: 'https://backend.shubhamkashyap.in/media/react-flow.png',
+    label: 'React Flow',
+  },
+  {
+    category: TechStacks.FRONTEND,
     icon: 'https://backend.shubhamkashyap.in/media/figma-svgrepo-com%20(1).svg',
     label: 'Figma',
   },
@@ -108,6 +137,11 @@ export const technologies = [
     category: TechStacks.FRONTEND,
     icon: 'https://backend.shubhamkashyap.in/media/tailwind-svgrepo-com.svg',
     label: 'TailwindCSS',
+  },
+  {
+    category: TechStacks.FRONTEND,
+    icon: 'https://backend.shubhamkashyap.in/media/shadcn-ui.svg',
+    label: 'ShadCN',
   },
   {
     category: TechStacks.FRONTEND,
@@ -163,5 +197,30 @@ export const technologies = [
     category: TechStacks.INFRASTRUCTURE,
     icon: 'https://backend.shubhamkashyap.in/media/aws-svgrepo-com.svg',
     label: 'AWS',
+  },
+  {
+    category: TechStacks.INFRASTRUCTURE,
+    icon: 'https://backend.shubhamkashyap.in/media/vercel-logo.svg',
+    label: 'Vercel',
+  },
+  {
+    category: TechStacks.INFRASTRUCTURE,
+    icon: 'https://backend.shubhamkashyap.in/media/planetscale.svg',
+    label: 'Planetscale',
+  },
+  {
+    category: TechStacks.INFRASTRUCTURE,
+    icon: 'https://backend.shubhamkashyap.in/media/digital-ocean.svg',
+    label: 'Digital Ocean',
+  },
+  {
+    category: TechStacks.AI,
+    icon: 'https://backend.shubhamkashyap.in/media/langchain.png',
+    label: 'Langchain',
+  },
+  {
+    category: TechStacks.AI,
+    icon: 'https://backend.shubhamkashyap.in/media/vercel-logo.svg',
+    label: 'Vercel AI SDK',
   },
 ];

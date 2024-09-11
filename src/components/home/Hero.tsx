@@ -1,6 +1,6 @@
 'use client';
 
-import { IconGlobe,  } from '@tabler/icons';
+import { IconGlobe } from '@tabler/icons';
 import { useTheme } from 'next-themes';
 import React from 'react';
 import { BrandGithub } from 'tabler-icons-react';
@@ -66,27 +66,27 @@ const Hero = () => {
           <Hightlight
             icon={<IconGlobe color={theme === 'dark' ? 'white' : 'black'} />}
             title="Logo Arena"
-            subTitle="Next.js, Typescript, Stripe, Cloudflare CDN"
-            tag="@LogoArena"
+            subTitle="Next.js, Typescript, Stripe, Vercel"
+            tag="LogoArena"
             route={'https://www.logoarena.com/'}
           >
             Logo Arena is a Full-Stack Web Application build with Next.js,
-            Typescript, Stripe integration, Cloudflare CDN and TailwindCSS. This
+            Typescript, TailwindCSS, Vercel and Stripe integration. This
             Application is a prominent logo design contest platform that
             facilitates businesses in obtaining custom logo designs.
           </Hightlight>
           <Hightlight
             icon={<IconGlobe color={theme === 'dark' ? 'white' : 'black'} />}
             title="Hiding Elephant"
-            subTitle="Next.js, Typescript, Stripe, CloudFlare CDN"
-            tag="@Hiding Elephant"
+            subTitle="Next.js, Typescript, Stripe, Vercel"
+            tag="Hiding Elephant"
             route={'https://www.hidingelephant.com/'}
           >
-            Hiding Elephanti is a Full-Stack Web Application built with Next.js, Typescript
-            and Typescript, Stripe integration, Cloudflare CDN. This Application
-            is an AI-powered logo design tool tailored for professional
-            designers. It allows users to generate unique, custom logos from
-            simple text prompts
+            Hiding Elephanti is a Full-Stack Web Application built with Next.js,
+            Typescript, Typescript, Vercel and Stripe integration. This
+            Application is an AI-powered logo design tool tailored for
+            professional designers. It allows users to generate unique, custom
+            logos from simple text prompts.
           </Hightlight>
         </div>
       </div>

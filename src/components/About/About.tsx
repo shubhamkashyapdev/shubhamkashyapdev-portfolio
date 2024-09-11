@@ -21,7 +21,7 @@ const About: FC<AboutType> = ({ allTags = [] }) => {
         <article className="flex flex-col md:flex-row md:gap-10">
           <span className="md:order-2 md:w-[40%] md:px-4">
             <Image
-              src="https://backend.shubhamkashyap.in/media/Profile_pic.jpg"
+              src="https://backend.shubhamkashyap.in/media/Image.jpg"
               height={500}
               width={500}
               objectFit="cover"
