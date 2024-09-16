@@ -1,5 +1,3 @@
-import { UserIcon } from 'lucide-react';
-
 import Parragraph from '../typography/Parragraph';
 
 const testimonials = [
@@ -47,13 +45,8 @@ const TestimonialsSection = () => {
               <p className="w-full text-lg text-black dark:text-slate-200">{`${testimonial.content}`}</p>
             </blockquote>
             <div className="mt-4 flex items-center">
-              <div className="shrink-0">
-                <span className="inline-block h-10 w-10 overflow-hidden rounded-full bg-gray-200">
-                  <UserIcon className="h-full w-full bg-primary-700 dark:bg-slate-600" />
-                </span>
-              </div>
-              <div className="ml-4">
-                <p className="font-semibold  text-black dark:text-slate-200">
+              <div className="flex">
+                <p className=" font-semibold  text-black dark:text-slate-200">
                   {testimonial.name}
                 </p>
               </div>
