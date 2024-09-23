@@ -3,10 +3,7 @@
 import { motion } from 'framer-motion';
 import { useTheme } from 'next-themes';
 import React from 'react';
-import {
-  BrandGithub,
-  BrandUpwork,
-} from 'tabler-icons-react';
+import { BrandGithub, BrandUpwork } from 'tabler-icons-react';
 
 import { fadeDown } from '@/components/common/animation/variants';
 import type { SocialIconProps } from '@/types/component.types';

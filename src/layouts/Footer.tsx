@@ -2,11 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import React from 'react';
-import {
-  BrandGithub,
-  BrandUpwork,
-  Copyright,
-} from 'tabler-icons-react';
+import { BrandGithub, BrandUpwork, Copyright } from 'tabler-icons-react';
 
 import Navbar from '@/layouts/Navbar/Navbar';
 import SocialIcons from '@/layouts/Navbar/SocialIcons';
@@ -36,7 +32,6 @@ const navLinks: NavItemProps[] = [
 ];
 
 const socialLinks: SocialIconProps[] = [
- 
   {
     route: 'https://github.com/shubhamkashyapdev',
     icon: <BrandGithub />,
@@ -46,7 +41,6 @@ const socialLinks: SocialIconProps[] = [
       'https://www.upwork.com/freelancers/~016892b2e096ca585d?referrer_url_path=%2Fab%2Fprofiles%2Fsearch%2Fdetails%2F~016892b2e096ca585d%2Fprofile',
     icon: <BrandUpwork />,
   },
- 
 ];
 
 const Footer = () => {

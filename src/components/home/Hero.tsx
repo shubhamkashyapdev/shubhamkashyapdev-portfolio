@@ -35,7 +35,7 @@ const Hero = () => {
               MVP development
             </strong>
             . I can provide you full support from ideation, documentation,
-            application development to deployment. 
+            application development to deployment.
           </Parragraph>
 
           <HeroCTA />
