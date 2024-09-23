@@ -25,16 +25,7 @@ const TechnologyStack = () => {
                 The right technology stack is key to ensuring a smooth
                 development journey and robust project architecture.
               </Parragraph>
-              <div className="mt-8 sm:flex">
-                <div className="rounded-md shadow">
-                  <a
-                    href="mailto:shubhamkashyapdev@gmail.com"
-                    className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                  >
-                    Get in touch
-                  </a>
-                </div>
-              </div>
+              
             </div>
             <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
               <div className="col-span-1 flex flex-col items-center justify-center  bg-gray-50 dark:bg-primary-800 p-4">

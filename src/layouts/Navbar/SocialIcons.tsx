@@ -5,8 +5,6 @@ import { useTheme } from 'next-themes';
 import React from 'react';
 import {
   BrandGithub,
-  BrandLinkedin,
-  BrandTwitter,
   BrandUpwork,
 } from 'tabler-icons-react';
 
@@ -26,14 +24,10 @@ const SocialIcons = ({ socialLinks }: SocialIconsProps) => {
   // Function to render the appropriate icon component based on icon type
   const renderIcon = (iconType: React.ReactNode) => {
     switch (iconType) {
-      case 'linkedin':
-        return <BrandLinkedin color={getIconColor()} />;
       case 'github':
         return <BrandGithub color={getIconColor()} />;
       case 'upwork':
         return <BrandUpwork color={getIconColor()} />;
-      case 'twitter':
-        return <BrandTwitter color={getIconColor()} />;
       default:
         return null;
     }

@@ -9,7 +9,7 @@ const experiences = [
     subTitle: 'Years of experience',
   },
   {
-    title: '40+',
+    title: '45+',
     subTitle: 'Projects completed',
   },
 ];

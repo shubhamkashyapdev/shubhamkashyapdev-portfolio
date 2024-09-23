@@ -35,12 +35,7 @@ const Hero = () => {
               MVP development
             </strong>
             . I can provide you full support from ideation, documentation,
-            application development to deployment. If you have a project idea
-            that {"you'd"} like to transform into a product, please {"don't"}{' '}
-            hesitate to{' '}
-            <a className="link" href="mailto:shubhamkashyapdev@gmail.com">
-              reach out to me.
-            </a>
+            application development to deployment. 
           </Parragraph>
 
           <HeroCTA />

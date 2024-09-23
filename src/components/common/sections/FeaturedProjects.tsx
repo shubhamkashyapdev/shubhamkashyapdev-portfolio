@@ -14,7 +14,7 @@ const FeaturedProjects = ({ projects }: FeaturedProjectsType) => {
   return (
     <section className="">
       <SectionTitle className="">Featured Projects</SectionTitle>
-      <Parragraph className="mt-1">{`Project's that i am proud of`}</Parragraph>
+      <Parragraph className="mt-1">{`Project's that I am proud of`}</Parragraph>
       <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
         {projects.map((item: ProjectCardType) => (
           <ProjectCard key={item.id} project={item} />
